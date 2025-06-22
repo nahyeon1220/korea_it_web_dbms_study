@@ -3,6 +3,7 @@ package com.koreait.dbms_study.dto;
 import com.koreait.dbms_study.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Data
 @AllArgsConstructor
@@ -16,4 +17,6 @@ public class AddUserReqDto {
                 .email(addUserReqDto.email)
                 .build();
     }
+
+
 }
